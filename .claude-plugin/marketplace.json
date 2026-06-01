@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "reddgrow",
+  "version": "1.0.0",
+  "description": "ReddGrow plugins for Claude Code",
+  "plugins": [
+    {
+      "name": "reddgrow-cli",
+      "description": "Drive the ReddGrow CLI — campaigns, drafts, advocates, brand monitoring, AEO, and read-only Reddit intelligence.",
+      "source": "./plugins/reddgrow-cli",
+      "category": "marketing"
+    }
+  ]
+}

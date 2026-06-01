@@ -1,0 +1,13 @@
+{
+  "name": "reddgrow-cli",
+  "version": "1.2.0",
+  "description": "Drive the ReddGrow CLI from Claude Code — manage campaigns, drafts, advocates, brand monitoring, AEO visibility, and read-only Reddit intelligence.",
+  "author": {
+    "name": "ReddGrow",
+    "email": "hello@reddgrow.ai"
+  },
+  "homepage": "https://reddgrow.ai",
+  "repository": "https://github.com/reddgrow/claude-plugin",
+  "license": "MIT",
+  "keywords": ["reddit", "marketing", "ai-agent", "reddgrow", "aeo", "campaigns"]
+}
