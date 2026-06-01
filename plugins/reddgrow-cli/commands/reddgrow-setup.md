@@ -1,7 +1,7 @@
 ---
 description: Set up and verify the ReddGrow CLI integration — checks installation, authentication, and reports account status.
 argument-hint: (none)
-allowed-tools: Bash(reddgrow:*), Bash(npx:*), Bash(which:*), Bash(cat:*)
+allowed-tools: Bash(reddgrow:*), Bash(npx:*), Bash(which:*)
 ---
 
 Check whether the `reddgrow` CLI is available and authenticated, then report account status.

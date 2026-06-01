@@ -9,6 +9,8 @@ trap 'rm -rf "$TMPDIR"' EXIT
 
 cd "$TMPDIR"
 npm pack @reddgrow/cli --quiet
-tar -xzf reddgrow-cli-*.tgz package/SKILL.md
+TARBALL="$(ls reddgrow-cli-*.tgz)"
+VERSION="${TARBALL#reddgrow-cli-}"; VERSION="${VERSION%.tgz}"
+tar -xzf "$TARBALL" package/SKILL.md
 cp package/SKILL.md "$DEST"
-echo "Synced SKILL.md from $(npm view @reddgrow/cli version) -> $DEST"
+echo "Synced SKILL.md from v${VERSION} -> $DEST"

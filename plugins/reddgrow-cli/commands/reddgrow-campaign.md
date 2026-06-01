@@ -6,17 +6,17 @@ allowed-tools: Bash(reddgrow:*), Bash(npx:*)
 
 Create a full ReddGrow campaign setup for: $ARGUMENTS
 
-Parse $ARGUMENTS as: first word = product name, second = URL. If URL is missing, ask the user for it before proceeding.
+Parse $ARGUMENTS: extract the product name and URL. If URL is missing, ask the user before proceeding. Substitute the literal values into every command below before running it.
 
 Use `--mode agent` on all commands for clean JSON output.
 
-Step 1 — Create the campaign:
-!`reddgrow campaigns create --name "$1" --url "$2" --mode agent`
+Step 1 — Create the campaign (substitute actual product name and URL):
+!`reddgrow campaigns create --name "<product-name>" --url "<url>" --mode agent`
 
 Extract `id` from the result as CAMPAIGN_ID.
 
-Step 2 — Research target subreddits (ask user for topic if not obvious from the product name):
-!`reddgrow reddit subreddits search "$1" --mode agent`
+Step 2 — Research target subreddits (substitute actual product name):
+!`reddgrow reddit subreddits search "<product-name>" --mode agent`
 
 Show the user the top 5 results (name, subscriber count, description) and ask which ones to add.
 
