@@ -9,6 +9,7 @@
     "url": "https://reddgrow.ai"
   },
   "homepage": "https://reddgrow.ai",
+  "privacyPolicyUrl": "https://reddgrow.ai/legal/privacy-policy",
   "license": "MIT",
   "keywords": ["ai visibility", "reddit", "chatgpt", "geo", "aeo"]
 }
