@@ -1,13 +1,23 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "reddgrow",
+  "owner": {
+    "name": "ReddGrow",
+    "url": "https://reddgrow.ai"
+  },
   "version": "1.0.0",
   "description": "ReddGrow plugins for Claude Code",
   "plugins": [
     {
       "name": "reddgrow-cli",
-      "description": "Drive the ReddGrow CLI — campaigns, drafts, advocates, brand monitoring, AEO, and read-only Reddit intelligence.",
+      "description": "Drive the ReddGrow CLI \u2014 campaigns, drafts, advocates, brand monitoring, AEO, and read-only Reddit intelligence.",
       "source": "./plugins/reddgrow-cli",
+      "category": "marketing"
+    },
+    {
+      "name": "reddgrow-reddit-ai-visibility-core",
+      "description": "Free AI visibility report for any website, the Reddit threads AI engines cite, and Reddit replies and posts drafted for them.",
+      "source": "./plugins/reddgrow-reddit-ai-visibility-core",
       "category": "marketing"
     }
   ]

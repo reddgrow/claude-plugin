@@ -7,6 +7,7 @@ Claude Code plugin and skill for the [ReddGrow](https://reddgrow.ai) platform â€
 ```sh
 /plugin marketplace add reddgrow/claude-plugin
 /plugin install reddgrow-cli@reddgrow
+/plugin install reddgrow-reddit-ai-visibility-core@reddgrow
 ```
 
 ## Install (npx skill only)
@@ -29,6 +30,7 @@ npx @reddgrow/cli skill install
 | `/reddgrow-setup` | Check CLI installation and auth, report account + credits. |
 | `/reddgrow-campaign <name> <url>` | Spin up a campaign end-to-end: create, add subreddits, create advocate. |
 | `/reddgrow-monitor [domain-id]` | Triage new brand mentions: read threads, summarise, mark handled. |
+| `reddgrow-reddit-ai-visibility-core` | Separate plugin: free AI visibility report, Reddit threads AI cites, drafted replies and posts, via the ReddGrow MCP connector. |
 
 ## Keeping the skill in sync
 

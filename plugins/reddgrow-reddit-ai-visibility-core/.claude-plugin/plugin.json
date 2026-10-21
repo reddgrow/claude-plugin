@@ -1,0 +1,14 @@
+{
+  "name": "reddgrow-reddit-ai-visibility-core",
+  "displayName": "Reddit AI Visibility by ReddGrow",
+  "version": "1.1.4",
+  "description": "Get into AI answers through Reddit. A free AI visibility report for any website, the Reddit threads AI engines cite, and replies drafted for those threads.",
+  "author": {
+    "name": "ReddGrow",
+    "email": "contact@help.reddgrow.ai",
+    "url": "https://reddgrow.ai"
+  },
+  "homepage": "https://reddgrow.ai",
+  "license": "MIT",
+  "keywords": ["ai visibility", "reddit", "chatgpt", "geo", "aeo"]
+}
